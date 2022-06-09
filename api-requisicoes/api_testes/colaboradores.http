@@ -1,22 +1,20 @@
 @apiUrl = http://localhost:3000/api
-@authToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhOWNjZDY2YWM0ODAzMjJlZDAxNjAiLCJub21lIjoiT3TDoXZpbyBDb2xhYm9yYWRvciIsImlhdCI6MTY1NDMwMjI3OSwiZXhwIjoxNjU0MzA1ODc5fQ.ihL8G7PpYWRMrQ8_pbN6TGJL3q4jRy4ByHAXVwsFIXI
+@authToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhOWNjZDY2YWM0ODAzMjJlZDAxNjAiLCJub21lIjoiT3TDoXZpbyBDb2xhYm9yYWRvciIsImlhdCI6MTY1NDc4MTA1NCwiZXhwIjoxNjU0Nzg0NjU0fQ.xVATtCqytSO7rDZuCZfcYGrnEgEC70g5ywj8sXroIPc
 //{{apiUrl}}
 
 # Obter a lista de colaboradores
 GET {{apiUrl}}/colaboradores
 Content-Type: application/json
 x-auth-token: {{authToken}}
-
 ###
 
 # Inserir novo colaborador
 POST {{apiUrl}}/colaboradores
 Content-Type: application/json
 x-auth-token: {{authToken}}
-
 {
  "nome": "Otávio Colaborador", 
- "email": "otaviocolaborador@upf.br",
+ "email": "otsaviocolaborador@upf.br",
  "senha": "123"
 }
 ###
